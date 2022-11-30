@@ -10,7 +10,7 @@ function App() {
     {/* Navigation*/}
     <nav className="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
       <div className="container">
-        <a className="navbar-brand" href="#page-top">enji</a>
+        <a className="navbar-brand" href="#page-top">My Personal Website</a>
         <button className="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
           <i className="fas fa-bars" />
@@ -28,9 +28,9 @@ function App() {
     <header className="masthead bg-primary text-white text-center">
       <div className="container d-flex align-items-center flex-column">
         {/* Masthead Avatar Image*/}
-        <img className="masthead-avatar mb-5" src="assets/img/photo_2021-09-10_15-05-39-modified.png" alt="..." />
+        <img className="masthead-avatar mb-5" src="assets/img/syalom.jpeg" alt="..." />
         {/* Masthead Heading*/}
-        <h1 className="masthead-heading text-uppercase mb-0">Anjelita Ferensca Kaminang</h1>
+        <h1 className="masthead-heading text-uppercase mb-0">Syalom Gabriela Wagey</h1>
         {/* Icon Divider*/}
         <div className="divider-custom divider-light">
           <div className="divider-custom-line" />
@@ -38,7 +38,7 @@ function App() {
           <div className="divider-custom-line" />
         </div>
         {/* Masthead Subheading*/}
-        <p class="masthead-subheading font-weight-light mb-0">UI/UX - Web deveploment</p>
+        <p class="masthead-subheading font-weight-light mb-0">Sistem Informasi - 2020</p>
       </div>
     </header>
     {/* Portfolio Section*/}
@@ -60,7 +60,7 @@ function App() {
               <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                 <div className="portfolio-item-caption-content text-center text-white"><i className="fas fa-plus fa-3x" /></div>
               </div>
-              <img className="img-fluid" src="assets/img/portfolio/retina_1708x683_cover-0828_AfterAllTheseYearstheWorldisStillPoweredbyCProgramming_Razvan_Newsletter-2b9ea38294bb08c5aea1f0c1cb06732f.png" alt="..." />
+              <img className="img-fluid" src="assets/img/portfolio/hackerrank.jpeg" alt="..." />
             </div>
           </div>
           {/* Portfolio Item 2*/}
@@ -172,7 +172,7 @@ function App() {
           <div className="col-lg-4 mb-5 mb-lg-0">
             <h4 className="text-uppercase mb-4">Location</h4>
             <p className="lead mb-0">
-              Bitung, Sulawesi Utara
+              Tondano, Sulawesi Utara
               <br />
               Indonesia
             </p>
@@ -180,27 +180,22 @@ function App() {
           {/* Footer Social Icons*/}
           <div className="col-lg-4 mb-5 mb-lg-0">
             <h4 className="text-uppercase mb-4">Around the Web</h4>
-            <a className="btn btn-outline-light btn-social mx-1" href="https://www.facebook.com/enji.kaminang/"><i className="fab fa-fw fa-facebook-f" /></a>
-            <a className="btn btn-outline-light btn-social mx-1" href="https://twitter.com/AnjelitaKamina2"><i className="fab fa-fw fa-twitter" /></a>
-            <a className="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/anjelita-kaminang-098a2b217/"><i className="fab fa-fw fa-linkedin-in" /></a>
-            <a className="btn btn-outline-light btn-social mx-1" href="https://www.instagram.com/anjelitakaminang/"><i className="fab fa-fw fa-instagram" /></a>
+            <a className="btn btn-outline-light btn-social mx-1" href="https://www.facebook.com/G.G.Wagey29?_rdc=1&_rdr"><i className="fab fa-fw fa-facebook-f" /></a>
+            <a className="btn btn-outline-light btn-social mx-1" href="https://twitter.com/s_wagey"><i className="fab fa-fw fa-twitter" /></a>
+            <a className="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/syalom-gabriela-wagey-581288206/"><i className="fab fa-fw fa-linkedin-in" /></a>
           </div>
           {/* Footer About Text*/}
           <div className="col-lg-4">
             <h4 className="text-uppercase mb-4">About me</h4>
             <p className="lead mb-0">
               
-              <a href="https://github.com/anjelitakaminang">Github</a>
+              <a href="https://github.com/SyalomGabrielaWagey">Github</a>
               
             </p>
           </div>
         </div>
       </div>
     </footer>
-    {/* Copyright Section*/}
-    <div className="copyright py-4 text-center text-white">
-      <div className="container"><small>Copyright ©kukoeci 2022</small></div>
-    </div>
     {/* Portfolio Modals*/}
     {/* Portfolio Modal 1*/}
     <div className="portfolio-modal modal fade" id="portfolioModal1" tabIndex={-1} aria-labelledby="portfolioModal1" aria-hidden="true">
@@ -222,7 +217,7 @@ function App() {
                   {/* Portfolio Modal - Image*/}
                   <img className="img-fluid rounded mb-5" src="assets/img/portfolio/retina_1708x683_cover-0828_AfterAllTheseYearstheWorldisStillPoweredbyCProgramming_Razvan_Newsletter-2b9ea38294bb08c5aea1f0c1cb06732f.png" alt="..." />
                   {/* Portfolio Modal - Text*/}
-                  <p className="mb-4">saya pernah belajar C++ di kelas programming.</p>
+                  <p className="mb-4">Telah menerima penghargaan BasicJavascript</p>
                   <button className="btn btn-primary" data-bs-dismiss="modal">
                     <i className="fas fa-xmark fa-fw" />
                     Close Window
@@ -254,7 +249,7 @@ function App() {
                   {/* Portfolio Modal - Image*/}
                   <img className="img-fluid rounded mb-5" src="assets/img/portfolio/6288755792019456.jpg" alt="..." />
                   {/* Portfolio Modal - Text*/}
-                  <p className="mb-4">saya sementara belajar tentang Javascript.</p>
+                  <p className="mb-4">Mempelajari Js saat mengambil kelas front-end-development</p>
                   <button className="btn btn-primary" data-bs-dismiss="modal">
                     <i className="fas fa-xmark fa-fw" />
                     Close Window
